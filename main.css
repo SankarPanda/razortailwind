@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.card:hover .card-img {
+  background-color: rgb(95, 158, 253);
+}
+.card:hover .card-box {
+  filter: drop-shadow(3px 5px 2px rgba(40, 40, 40, 0.4));
+}
+.card:hover .wave {
+  display: block;
+}
+.new-card {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+    rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+.coreFeaturesBg {
+  background-size: 100% 100%;
+}
+
+.company {
+  animation: moveImage 5s linear infinite;
+}
+@keyframes moveImage {
+  0% {
+    top: 0;
+  }
+  100% {
+    top: -100%;
+  }
+}
+.CTABG {
+  background-size: 100% 100%;
+}
